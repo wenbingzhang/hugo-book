@@ -184,6 +184,29 @@
       margin-top: 0;
     }
   }
+
+  .book-post-title{
+    text-align: center;
+  }
+
+  .book-post-meta{
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .book-post-meta-date,
+  [class^="book-post-meta-separator-"]{
+    color: #999;
+  }
+
+  @media screen and (max-width: $container-max-width) {
+    .book-post-meta-tags,
+    .book-post-meta-series,
+    .book-post-meta-separator-tags,
+    .book-post-meta-separator-series {
+      display: none;
+    }
+  }
 }
 
 .markdown-inner {
